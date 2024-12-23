@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Study Plan Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="header-img">
+        <img src="images/web-devPlanner.img" alt="Web Development Planner">
+    </div>
+    <div class="container">
+        <div class="center-content">
+            <h1>Web Development Study Plan Guide</h1>
+            <p class="sales-pitch">An AI-based guide to help you in this journey of web development based on your specific needs.</p>
+        </div>
+        <form id="planForm">
+            <label for="topic">Choose a Topic:</label>
+            <select id="topic" required>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="jsDocs">JavaScript (Documentation)</option>
+                <option value="jsProblems">JavaScript (Problem Solving)</option>
+                <option value="webDev">Web Development</option>
+            </select>
+
+            <label for="proficiency">Your Proficiency Level:</label>
+            <select id="proficiency" required>
+                <option value="newbie">Newbie (Complete Rookie)</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="expert">Expert</option>
+            </select>
+
+            <button type="submit">Generate Study Plan</button>
+        </form>
+
+        <div id="loading">Generating your customized study plan...</div>
+        <div id="error"></div>
+        <div id="studyPlan" style="display: none;"></div>
+        <button id="downloadPdf" style="display: none;">Download as PDF</button>
+    </div>
+
+    <button id="themeToggle">🌙</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
