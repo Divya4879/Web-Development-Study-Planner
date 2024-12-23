@@ -207,7 +207,6 @@ function downloadPdf() {
 
     }
 
-
     // Traverse through the content and add text to PDF
     const traverse = (node) => {
         for (const child of node.childNodes) {
@@ -244,4 +243,3 @@ function toggleTheme() {
     document.body.classList.toggle('light-theme');
     themeToggle.textContent = document.body.classList.contains('light-theme') ? '☀️' : '🌙';
 }
-
