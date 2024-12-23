@@ -1,0 +1,188 @@
+:root {
+    --bg-color: #0a2f0a;
+    --text-color: #e0f0e0;
+    --primary-color: #4caf50;
+    --secondary-color: #45a049;
+    --form-bg: #1a3f1a;
+    --input-bg: #0f2f0f;
+    --text-shadow: 3px 2px 4px rgba(76, 175, 80, 0.7);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40vh auto;
+    background-color:var(--bg-color);
+    opacity:0.9;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+h1 {
+    text-shadow: var(--text-shadow);
+    font-size:48px
+}
+
+.sales-pitch {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-shadow: var(--text-shadow);
+}
+
+form {
+    background-color: var(--form-bg);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+#studyPlan {
+    background-color: var(--form-bg);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.week-plan {
+    background-color: var(--form-bg);
+    border: 3px solid var(--primary-color);
+    box-shadow: 6px 6px 6px rgb(59, 164, 84);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.topic {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.topic-checkbox {
+    margin-right: 10px;
+}
+
+#themeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+#themeToggle:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+.light-theme {
+    --bg-color: #e0f0e0;
+    --text-color: #0a2f0a;
+    --form-bg: #c1e0c1;
+    --input-bg: #ffffff;
+    --text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#loading {
+    text-align: center;
+    display: none;
+    color: var(--primary-color);
+}
+
+#error {
+    color: #ff6b6b;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.resource-link {
+    display: block;
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 0.9em;
+}
+
+.header-img img {
+    width: 100vw;
+    height: 40vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.center-content {
+    text-align: center;
+}
