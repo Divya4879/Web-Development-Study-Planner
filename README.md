@@ -1,7 +1,7 @@
-# Web Development Study Plan Generator
+# Web Development Study Plan Guide
 
 ## Overview
-This Web Development Study Plan Generator is an AI-powered tool designed to help web developers at various proficiency levels create a personalized study plan based on their selected topic. The tool tailors the plan to the user's needs and provides free learning resources, project ideas, and weekly guidance.
+This Web Development Study Plan Guide is an AI-powered tool (Gemini API) designed to help web developers at various proficiency levels create a personalized study plan based on their selected topic. This tool tailors the plan based on user's needs and provides free learning resources for weekly learning.
 
 ## Features
 - **Topic Selection**: Choose from HTML, CSS, JavaScript (Documentation or Problem Solving), or Web Development.
