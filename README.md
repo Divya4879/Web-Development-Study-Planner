@@ -3,6 +3,15 @@
 ## Overview
 This Web Development Study Plan Guide is an AI-powered tool (Gemini API) designed to help web developers at various proficiency levels create a personalized study plan based on their selected topic. This tool tailors the plan based on user's needs and provides free learning resources for weekly learning.
 
+## Live
+
+My site is live at:-https://divya4879.github.io/Web-Development-Study-Planner
+
+## Preview
+A little preview of my working site:-
+![screencapture-divya4879-github-io-Web-Development-Study-Planner-2024-12-24-21_04_43](https://github.com/user-attachments/assets/9a480c81-9943-4b4c-8cae-72aa67e79cf6)
+
+
 ## Features
 - **Topic Selection**: Choose from HTML, CSS, JavaScript (Documentation or Problem Solving), or Web Development.
 - **Proficiency Level**: Select your proficiency level (Newbie, Beginner, Intermediate, or Expert).
@@ -25,3 +34,7 @@ This Web Development Study Plan Guide is an AI-powered tool (Gemini API) designe
 - HTML, CSS
 - JavaScript (for AI API interaction)
 - [jsPDF](https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js) for PDF generation
+
+## Contributions
+
+Contributions to improve this project are welcome! Feel free to submit issues or pull requests.
